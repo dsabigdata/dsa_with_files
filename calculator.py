@@ -1,6 +1,7 @@
 import math
 import numpy as np
 
+#test changes
 class Calculator:
     def add(self, a, b):
         return a + b
