@@ -15,3 +15,6 @@ class Calculator:
 
     def square(self, a):
         return a * a
+    
+    def square_root(self, a):
+        return math.sqrt(a)
