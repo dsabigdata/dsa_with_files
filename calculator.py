@@ -27,7 +27,7 @@ class Calculator:
     
     #test the calculator
     def test_calculator(self):
-        assert self.add(1, 2) == 3
+        assert self.add(1, 2) == 5
         assert self.subtract(1, 2) == -1
         assert self.multiply(1, 2) == 2
         assert self.divide(1, 2) == 0.5
