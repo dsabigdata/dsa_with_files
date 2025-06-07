@@ -1,3 +1,6 @@
+import math
+import numpy as np
+
 class Calculator:
     def add(self, a, b):
         return a + b
@@ -18,3 +21,6 @@ class Calculator:
     
     def square_root(self, a):
         return math.sqrt(a)
+    
+    def matrix_multiply(self, a, b):
+        return np.dot(a, b)
